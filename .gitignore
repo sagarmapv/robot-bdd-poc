@@ -1,0 +1,26 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Robot Framework output logs
+output.xml
+log.html
+report.html
+
+# Test results & debug artifacts
+results/
+*.log
+*.tmp
+*.bak
+
+# VSCode settings (optional)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
