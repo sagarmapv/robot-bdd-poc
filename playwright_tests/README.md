@@ -31,7 +31,9 @@ sudo apt-get install -y libnss3 libnspr4 libasound2t64
 ```
 ---
 ### 3. Run the test 
+```bash
 pytest test_login_playwright.py
+```
 ---
 ## ✅ Expected Output
 test_login_playwright.py . [100%]
